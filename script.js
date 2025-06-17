@@ -13,3 +13,8 @@ async function getimage() {
         console.log(err);
     }
 }
+document.addEventListener('keydown',(event)=>{
+    if(event.key === "Enter") {
+        btn.click();
+    }
+});
